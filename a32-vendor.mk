@@ -173,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.authfw@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.authfw@1.0-service \
-    vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.face-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.face-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64 \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.0-service \
@@ -620,7 +619,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/dsmsca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dsmsca.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/emservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/emservice.rc \
-    vendor/samsung/a32/proprietary/vendor/etc/init/face-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/face-default-sec.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/hyper-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hyper-default-sec.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/init.a32.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a32.rc \
@@ -951,8 +949,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib/android.hardware.audio@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@6.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/android.hardware.audio@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@7.0-util.so \
     vendor/samsung/a32/proprietary/vendor/lib/android.hardware.audio@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@7.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib/android.hardware.biometrics.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.biometrics.common-V1-ndk_platform.so \
-    vendor/samsung/a32/proprietary/vendor/lib/android.hardware.biometrics.face-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.biometrics.face-V1-ndk_platform.so \
     vendor/samsung/a32/proprietary/vendor/lib/android.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/android.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio@2.1.so \
     vendor/samsung/a32/proprietary/vendor/lib/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth@1.0.so \
@@ -1034,7 +1030,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/samsung/a32/proprietary/vendor/lib/libDualCamBokehCapture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDualCamBokehCapture.camera.samsung.so \
     vendor/samsung/a32/proprietary/vendor/lib/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFacePreProcessing.camera.samsung.so \
-    vendor/samsung/a32/proprietary/vendor/lib/libFaceService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceService.so \
     vendor/samsung/a32/proprietary/vendor/lib/libFace_Landmark_API.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFace_Landmark_API.camera.samsung.so \
     vendor/samsung/a32/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/samsung/a32/proprietary/vendor/lib/libFrucSSMLib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrucSSMLib.so \
@@ -1375,7 +1370,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.mediatek.hardware.rcs@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.rcs@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.audio@1.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.biometrics.face-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.biometrics.face-V2-ndk_platform.so \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@2.0.so \
@@ -1417,9 +1411,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.audio@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@6.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.audio@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@7.0-util.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.audio@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@7.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.biometrics.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.common-V1-ndk_platform.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.biometrics.face-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.face-V1-ndk_platform.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio@2.1.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth@1.0.so \
@@ -1538,7 +1529,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libDualCamBokehCapture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCamBokehCapture.camera.samsung.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFacePreProcessing.camera.samsung.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/libFaceService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFaceService.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libFace_Landmark_API.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace_Landmark_API.camera.samsung.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libHprFace_GAE_api.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHprFace_GAE_api.camera.samsung.so \
@@ -2038,7 +2028,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.dsms@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.audio@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.authfw@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.authfw@1.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.biometrics.face-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.face-V2-ndk_platform.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.audio@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.audio@2.1.so \
