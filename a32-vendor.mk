@@ -1321,7 +1321,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/samsung/a32/proprietary/vendor/lib/libtad.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtad.so \
     vendor/samsung/a32/proprietary/vendor/lib/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteecl.so \
-    vendor/samsung/a32/proprietary/vendor/lib/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtextclassifier_hash.so \
     vendor/samsung/a32/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
     vendor/samsung/a32/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
     vendor/samsung/a32/proprietary/vendor/lib/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlcWidevineModularDrm.so \
@@ -1471,10 +1470,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.1.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.media.c2@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.2.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.neuralnetworks@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.neuralnetworks@1.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.neuralnetworks@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.neuralnetworks@1.1.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.neuralnetworks@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.neuralnetworks@1.2.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.neuralnetworks@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.neuralnetworks@1.3.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.1.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.2.so \
@@ -2020,7 +2015,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libtad.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtad.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteecl.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtextclassifier_hash.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
