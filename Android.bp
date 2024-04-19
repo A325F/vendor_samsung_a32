@@ -5,6 +5,35 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "imsservice",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/imsservice/imsservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+dex_import {
+	name: "mediatek-common",
+	owner: "samsung",
+	jars: ["proprietary/system/framework/mediatek-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework",
+	owner: "samsung",
+	jars: ["proprietary/system/framework/mediatek-framework.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-base",
+	owner: "samsung",
+	jars: ["proprietary/system/framework/mediatek-ims-base.jar"],
+}
+
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks@1.3-service-mtk-gpu",
 	owner: "samsung",

@@ -1930,6 +1930,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
 PRODUCT_PACKAGES += \
+    imsservice \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.sensors@2.0-multihal-mtk \
     android.hardware.wifi.hostapd-mtk \
