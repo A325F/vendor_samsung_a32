@@ -1992,13 +1992,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
-    android.hardware.sensors@2.0-multihal \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi.supplicant \
-    android.hardware.wifi@1.0-service \
+    android.hardware.sensors@2.0-multihal-mtk \
+    android.hardware.wifi.hostapd-mtk \
+    android.hardware.wifi.supplicant-mtk \
+    android.hardware.wifi@1.0-service-mtk \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service \
-    power-default \
+    power-default-mtk \
     sec.android.hardware.nfc@1.2-service \
     vendor.samsung.hardware.authfw@1.0-manifest \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
