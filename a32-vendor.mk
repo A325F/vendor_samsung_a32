@@ -698,7 +698,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/samsung/a32/proprietary/vendor/etc/str/str_preference_data.dat:$(TARGET_COPY_OUT_VENDOR)/etc/str/str_preference_data.dat \
     vendor/samsung/a32/proprietary/vendor/etc/sysconfig/vendor-apex-allowlist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/vendor-apex-allowlist.xml \
-    vendor/samsung/a32/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/samsung/a32/proprietary/vendor/etc/traceconfig.txt:$(TARGET_COPY_OUT_VENDOR)/etc/traceconfig.txt \
     vendor/samsung/a32/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/samsung/a32/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
