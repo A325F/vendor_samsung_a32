@@ -34,14 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/system/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/temperature_limit_usb.spi \
     vendor/samsung/a32/proprietary/system/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi \
     vendor/samsung/a32/proprietary/system_ext/lib/libaed.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libaed.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareapusys.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libapuwareapusys_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareapusys_v2.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libapuwarehmp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwarehmp.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libapuwareutils.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareutils.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libapuwareutils_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareutils_v2.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwarexrp.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libapuwarexrp_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwarexrp_v2.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libarmnn_ndk.mtk.so \
     vendor/samsung/a32/proprietary/system_ext/lib/libaudiocompensationfilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libaudiocompensationfilter.so \
     vendor/samsung/a32/proprietary/system_ext/lib/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libaudiotoolkit.so \
     vendor/samsung/a32/proprietary/system_ext/lib/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcmdl_ndk.mtk.so \
@@ -49,42 +41,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/system_ext/lib/libdrmmtkwhitelist.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdrmmtkwhitelist.so \
     vendor/samsung/a32/proprietary/system_ext/lib/libmcv_runtime_usdk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmcv_runtime_usdk.mtk.so \
     vendor/samsung/a32/proprietary/system_ext/lib/libmdloggerrecycle.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmdloggerrecycle.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_cic_ci_compiler.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_cic_ci_compiler.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_clc_mvpu_debuginfo.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_clc_mvpu_debuginfo.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_clc_mvpu_elf.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_clc_mvpu_elf.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_clc_mvpu_utility.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_clc_mvpu_utility.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_config.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_config.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_engine.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_engine.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_engine_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_engine_pub.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_pattern.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_pattern.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_pattern_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_pattern_pub.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_runtime.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_runtime.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpu_runtime_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_runtime_pub.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpuop_mtk_cv.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpuop_mtk_cv.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libmvpuop_mtk_nn.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpuop_mtk_nn.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libneuron_graph_delegate.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libneuronusdk_adapter.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnir_neon_driver_ndk.mtk.so \
     vendor/samsung/a32/proprietary/system_ext/lib/libteeservice_client.trustonic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libteeservice_client.trustonic.so \
     vendor/samsung/a32/proprietary/system_ext/lib/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libtflite_mtk.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.apusys@2.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.apusys@2.1.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.hmp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.hmp@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.utils@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.utils@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.utils@2.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.xrp@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.xrp@2.0.so \
     vendor/samsung/a32/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libaed.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaed.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareapusys.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libapuwareapusys_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareapusys_v2.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libapuwarehmp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarehmp.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libapuwareutils.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils_v2.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libapuwarexrp_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp_v2.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarmnn_ndk.mtk.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libaudiocompensationfilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaudiocompensationfilter.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaudiotoolkit.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcmdl_ndk.mtk.so \
@@ -93,33 +53,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/system_ext/lib64/libdrmmtkwhitelist.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmmtkwhitelist.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libmcv_runtime_usdk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcv_runtime_usdk.mtk.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libmdloggerrecycle.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmdloggerrecycle.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_cic_ci_compiler.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_cic_ci_compiler.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_clc_mvpu_debuginfo.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_clc_mvpu_debuginfo.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_clc_mvpu_elf.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_clc_mvpu_elf.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_clc_mvpu_utility.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_clc_mvpu_utility.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_config.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_config.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_engine.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_engine.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_engine_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_engine_pub.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_pattern.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_pattern.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_pattern_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_pattern_pub.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_runtime.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_runtime.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpu_runtime_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_runtime_pub.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpuop_mtk_cv.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpuop_mtk_cv.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libmvpuop_mtk_nn.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpuop_mtk_nn.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuron_graph_delegate.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuronusdk_adapter.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnir_neon_driver_ndk.mtk.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libpcap_bak.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpcap_bak.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libteeservice_client.trustonic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libteeservice_client.trustonic.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.composer_ext@1.0.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.log@1.0.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.meta@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.meta@1.0.so \
