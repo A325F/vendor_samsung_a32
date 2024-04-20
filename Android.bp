@@ -46,15 +46,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.sensors@2.0-multihal-mtk",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal-mtk.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.4-service.widevine",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
@@ -67,15 +58,6 @@ prebuilt_etc_xml {
 	name: "manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "power-default-mtk",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/power-default-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
