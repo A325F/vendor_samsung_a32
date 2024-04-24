@@ -1062,6 +1062,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.5.so \
     vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.6.so \
+    vendor/samsung/a32/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
     vendor/samsung/a32/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/samsung/a32/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
     vendor/samsung/a32/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
