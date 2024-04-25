@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hqm@1.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.hyper-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hyper-service \
-    vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.light-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.drk@2.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service \
@@ -546,7 +545,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
-    vendor/samsung/a32/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
@@ -1614,7 +1612,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.hqm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hqm@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.miscpower@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
@@ -1701,7 +1698,6 @@ PRODUCT_PACKAGES += \
     mediatek-framework \
     mediatek-ims-base \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
-    lights-default-sec \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service \
     sec.android.hardware.nfc@1.2-service \
