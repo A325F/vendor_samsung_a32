@@ -98,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64 \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.0-service \
-    vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hqm@1.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.hyper-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hyper-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.snap-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.snap-service \
@@ -496,7 +495,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/a32/proprietary/vendor/etc/gnss/deleteLogCommands:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/deleteLogCommands \
     vendor/samsung/a32/proprietary/vendor/etc/gnss/mnl.prop:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/mnl.prop \
-    vendor/samsung/a32/proprietary/vendor/etc/hqm_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hqm_device.xml \
     vendor/samsung/a32/proprietary/vendor/etc/hyper/config_chipset.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_chipset.json \
     vendor/samsung/a32/proprietary/vendor/etc/hyper/config_hyper_permission.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_hyper_permission.json \
     vendor/samsung/a32/proprietary/vendor/etc/hyper/config_model.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_model.json \
@@ -555,7 +553,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64_mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64_mtk.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
-    vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc \
@@ -840,7 +837,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib/libheifcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libheifcapture.so \
     vendor/samsung/a32/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     vendor/samsung/a32/proprietary/vendor/lib/libhigh_dynamic_range_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhigh_dynamic_range_bokeh.so \
-    vendor/samsung/a32/proprietary/vendor/lib/libhqm_hwparam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhqm_hwparam.so \
     vendor/samsung/a32/proprietary/vendor/lib/libhwscaler_camera.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwscaler_camera.mtk.so \
     vendor/samsung/a32/proprietary/vendor/lib/libhypermotion.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypermotion.uniplugin@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/libhypermotion_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypermotion_core.so \
@@ -1007,7 +1003,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@2.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.hqm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.hqm@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.thermal@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib/vintf-codecsolution-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vintf-codecsolution-V2-ndk_platform.so \
     vendor/samsung/a32/proprietary/vendor/lib/vndk/libstagefright_omx_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx_utils.so \
@@ -1304,7 +1299,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/libheifcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libheifcapture.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhigh_dynamic_range_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhigh_dynamic_range_bokeh.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/libhqm_hwparam.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhqm_hwparam.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhyper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhyper.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhypermotion.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion.uniplugin@1.0.so \
@@ -1576,7 +1570,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.hqm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hqm@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.miscpower@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@2.0.so \
@@ -1655,6 +1648,5 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_vendor.samsung.hardware.security.widevine.keyprov@1.0-service \
     sec.android.hardware.nfc@1.2-service \
-    vendor.samsung.hardware.hqm@1.0-manifest \
     vendor.samsung.hardware.snap-default \
     vendor.samsung.hardware.thermal@1.0-manifest
