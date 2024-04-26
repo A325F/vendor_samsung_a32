@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.hqm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hqm@1.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.hyper-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hyper-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
-    vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.snap-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.snap-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.sysinput@1.3-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.sysinput@1.3-service \
     vendor/samsung/a32/proprietary/vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.thermal@1.0-service \
@@ -563,7 +562,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc \
-    vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.snap-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.snap-lazy.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc \
@@ -1464,7 +1462,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/libscaler_sw.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscaler_sw.unifunc.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libsec2mtk_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec2mtk_conversion.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/libsec_skpmHalTlc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec_skpmHalTlc.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudiocoreutils.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libseccam_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseccam_util.so \
@@ -1605,7 +1602,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.2.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.security.engmode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.engmode@1.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.security.skpm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.skpm@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.samsung.hardware.snap-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.snap-V1-ndk_platform.so \
