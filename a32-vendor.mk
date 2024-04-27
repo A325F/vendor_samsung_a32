@@ -466,7 +466,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/samsung/a32/proprietary/vendor/etc/beauty/settings.dat:$(TARGET_COPY_OUT_VENDOR)/etc/beauty/settings.dat \
     vendor/samsung/a32/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
-    vendor/samsung/a32/proprietary/vendor/etc/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     vendor/samsung/a32/proprietary/vendor/etc/dax3_media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dax3_media_codecs_dolby_audio.xml \
     vendor/samsung/a32/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/a32/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
