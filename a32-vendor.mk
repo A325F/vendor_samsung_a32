@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/system_ext/lib64/libteeservice_client.trustonic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libteeservice_client.trustonic.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.composer_ext@1.0.so \
-    vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.log@1.0.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.meta@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.meta@1.0.so \
     vendor/samsung/a32/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/samsung/a32/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
@@ -122,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/bin/libccu_s5kgw3_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_s5kgw3_mipi_raw.pm \
     vendor/samsung/a32/proprietary/vendor/bin/libccu_sr846d_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_sr846d_mipi_raw.dm \
     vendor/samsung/a32/proprietary/vendor/bin/libccu_sr846d_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_sr846d_mipi_raw.pm \
-    vendor/samsung/a32/proprietary/vendor/bin/loghidlvendorservice:$(TARGET_COPY_OUT_VENDOR)/bin/loghidlvendorservice \
     vendor/samsung/a32/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     vendor/samsung/a32/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
     vendor/samsung/a32/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
@@ -531,10 +529,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
-    vendor/samsung/a32/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
-    vendor/samsung/a32/proprietary/vendor/etc/init/mtklog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtklog.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
     vendor/samsung/a32/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
@@ -1539,7 +1535,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
-    vendor/samsung/a32/proprietary/vendor/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.log@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.mediatek.hardware.meta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.meta@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mmagent@1.0.so \
