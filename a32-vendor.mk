@@ -1539,3 +1539,15 @@ PRODUCT_PACKAGES += \
     sec.android.hardware.nfc@1.2-service \
     vendor.samsung.hardware.snap-default \
     vendor.samsung.hardware.thermal@1.0-manifest
+
+PRODUCT_PACKAGES += \
+    libGLES_mali_vulkan.mt6768_symlink32 \
+    libdpframework_libdpframework_symlink32 \
+    libmtk_drvb_libmtk_drvb_symlink32 \
+    libnir_neon_driver_libnir_neon_driver_symlink32 \
+    libpq_prot_libpq_prot_symlink32 \
+    libGLES_mali_vulkan.mt6768_symlink64 \
+    libdpframework_libdpframework_symlink64 \
+    libmtk_drvb_libmtk_drvb_symlink64 \
+    libnir_neon_driver_libnir_neon_driver_symlink64 \
+    libpq_prot_libpq_prot_symlink64
