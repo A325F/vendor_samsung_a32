@@ -1534,6 +1534,7 @@ PRODUCT_PACKAGES += \
     mediatek-ims-base \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.usb@1.3-service.coral \
+    hyper-default-sec \
     lights-default-sec \
     manifest_android.hardware.drm@1.4-service.widevine \
     sec.android.hardware.nfc@1.2-service \
