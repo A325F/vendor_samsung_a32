@@ -667,6 +667,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/samsung/a32/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/samsung/a32/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
+    vendor/samsung/a32/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/samsung/a32/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/samsung/a32/proprietary/vendor/lib/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libappgamepq.so \
     vendor/samsung/a32/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
@@ -1025,6 +1026,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
+    vendor/samsung/a32/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappgamepq.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
