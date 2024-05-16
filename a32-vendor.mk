@@ -1181,6 +1181,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhigh_dynamic_range_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhigh_dynamic_range_bokeh.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
+    vendor/samsung/a32/proprietary/vendor/lib64/libhwscaler_camera.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwscaler_camera.mtk.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhyper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhyper.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhypermotion.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion.uniplugin@1.0.so \
     vendor/samsung/a32/proprietary/vendor/lib64/libhypermotion_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion_core.so \
