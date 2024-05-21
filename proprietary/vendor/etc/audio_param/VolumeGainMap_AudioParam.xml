@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AudioParam version="1.0">
-  <ParamTree>
-    <Param path="RCV_NORMAL" param_id="0"/>
-    <Param path="RCV_2_IN_1" param_id="7"/>
-    <Param path="RCV_3_IN_1" param_id="7"/>
-    <Param path="RCV_NO_ANA" param_id="5"/>
-    <Param path="HS" param_id="1"/>
-    <Param path="SPK_INT" param_id="2"/>
-    <Param path="SPK_LO" param_id="3"/>
-    <Param path="SPK_HP" param_id="4"/>
-    <Param path="SPK_NO_ANA" param_id="5"/>
-    <Param path="HS5POLE" param_id="1"/>
-    <Param path="HS5POLE_ANC" param_id="1"/>
-    <Param path="HAC" param_id="0"/>
-    <Param path="BT" param_id="6"/>
-    <Param path="TTY" param_id="1"/>
-    <Param path="USB" param_id="5"/>
-    <Param path="HEARING_AID" param_id="8"/>
-    <Param path="VoIPs_Vol,RCV_NORMAL" param_id="9"/>
-    <Param path="VoIPs_Vol,RCV_2_IN_1" param_id="7"/>
-    <Param path="VoIPs_Vol,RCV_3_IN_1" param_id="7"/>
-    <Param path="VoIPs_Vol,RCV_NO_ANA" param_id="5"/>
-    <Param path="VoIPs_Vol,HS" param_id="10"/>
-    <Param path="VoIPs_Vol,SPK_INT" param_id="2"/>
-    <Param path="VoIPs_Vol,SPK_LO" param_id="11"/>
-    <Param path="VoIPs_Vol,SPK_HP" param_id="4"/>
-    <Param path="VoIPs_Vol,SPK_NO_ANA" param_id="5"/>
-    <Param path="VoIPs_Vol,HS5POLE" param_id="10"/>
-    <Param path="VoIPs_Vol,HS5POLE_ANC" param_id="10"/>
-    <Param path="VoIPs_Vol,HAC" param_id="9"/>
-  </ParamTree>
+	<ParamTree>
+		<Param path="RCV_NORMAL" param_id="0"/>
+		<Param path="RCV_2_IN_1" param_id="7"/>
+		<Param path="RCV_3_IN_1" param_id="7"/>
+		<Param path="RCV_NO_ANA" param_id="5"/>
+
+		<Param path="HS" param_id="1"/>
+
+		<Param path="SPK_INT" param_id="2"/>
+		<Param path="SPK_LO" param_id="3"/>
+		<Param path="SPK_HP" param_id="4"/>
+		<Param path="SPK_NO_ANA" param_id="5"/>
+
+		<Param path="HS5POLE" param_id="1"/>
+		<Param path="HS5POLE_ANC" param_id="1"/>
+		<Param path="HAC" param_id="0"/>
+		<Param path="BT" param_id="6"/>
+		<Param path="TTY" param_id="1"/>
+		<Param path="USB" param_id="5"/>
+    		<Param path="HEARING_AID" param_id="8"/>
+		<Param path="VoIPs_Vol,RCV_NORMAL" param_id="9"/>
+		<Param path="VoIPs_Vol,RCV_2_IN_1" param_id="7"/>
+		<Param path="VoIPs_Vol,RCV_3_IN_1" param_id="7"/>
+		<Param path="VoIPs_Vol,RCV_NO_ANA" param_id="5"/>
+		<Param path="VoIPs_Vol,HS" param_id="10"/>
+		<Param path="VoIPs_Vol,SPK_INT" param_id="2"/>
+		<Param path="VoIPs_Vol,SPK_LO" param_id="11"/>
+		<Param path="VoIPs_Vol,SPK_HP" param_id="4"/>
+		<Param path="VoIPs_Vol,SPK_NO_ANA" param_id="5"/>
+		<Param path="VoIPs_Vol,HS5POLE" param_id="10"/>
+		<Param path="VoIPs_Vol,HS5POLE_ANC" param_id="10"/>
+		<Param path="VoIPs_Vol,HAC" param_id="9"/>
+	</ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
       <Param name="dl_total_gain" value="8,7,6,5,4,3,2,1,0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11,-12,-13,-14,-15,-16,-17,-18,-19,-20,-21,-22,-23,-24,-25,-26,-27,-28,-29,-30,-31,-32"/>

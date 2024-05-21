@@ -19,8 +19,8 @@
     <Param path="5-pole HS+ANC" param_id="6"/>
     <Param path="ASR,5-pole HS" param_id="7"/>
     <Param path="ASR,5-pole HS+ANC" param_id="7"/>
-    <Param path="FACTORY_RCV" param_id="8"/>
-    <Param path="FACTORY_SPK" param_id="8"/>
+	<Param path="FACTORY_RCV" param_id="8"/>
+	<Param path="FACTORY_SPK" param_id="8"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -127,7 +127,7 @@
       <Param name="UL AES LB visibility" value="1"/>
       <Param name="UL Sample Rate" value="16000"/>
     </ParamUnit>
-    <ParamUnit param_id="8">
+	<ParamUnit param_id="8">
       <Param name="DRC+DG visibility" value="-1"/>
       <Param name="FIR visibility" value="-1"/>
       <Param name="NREC visibility" value="-1"/>
